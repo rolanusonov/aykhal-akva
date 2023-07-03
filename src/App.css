@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#Hero {
+    background: url("./img/heroFon.png") no-repeat center/cover ;
+    height: 500px;
+ }
+
+.heroDesc {
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    width: 40%;
+    padding: 120px 0 30px 0;
+}
+
+.heroBtn {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    background: #23C706;
+    box-shadow: 0 10px 30px rgba(35, 199, 6, 0.45);
+    border-radius: 5px;
+}
+
+.heroBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(21, 175, 245, 0.39);
+    margin: 35px 0 0 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.heroBlockLogo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.heroTitle{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #23C706;
+
+}
+.iconAkva{
+    width: 90px;
+}
+.heroBlockPhone{
+    gap: 20px;
+        display: flex;
+    align-items: center;
+}
+.heroAddress{
+border-left: solid 2px gray;
+    padding: 0 0 0  10px;
+    width: 150px;
+}
+.heroBlockContact{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@media (max-width: 1024px) {
+    .heroDesc {
+        width: 60%;
+    }
+    .heroBlock {
+        gap: 20px;
+        flex-direction: column;
+    }
+    .heroBlockTitle p{
+        display: none;
+    }
+}@media (max-width: 736px) {
+    #Hero {
+      background: none;
+        height: 0;
+    }
+    .heroDesc{
+        display: none;
+    }
+    .heroBtn{
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .heroBlockContact {
+        flex-direction: column;
+    }
+
+}
+/*Advantages*/
+.Advantages{
+    background: rgba(67, 136, 221, 0.1);
+
+}
+.advanIcon{
+    width: 60px;
+    height: 100px;
+}
+.advanCircleIcon{
+    width: 200px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0 20px 20px rgba(67, 136, 221, 0.16);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advanLiter{
+    font-size: 19px;
+    color: #4A4A4A;
+}
+.advantagesDesc{
+    width: 54%;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.69);
+}
+.advanPriceDesc{
+    font-size: 15px;
+    color: #000000;
+}
+.advanPrice{
+    font-size: 20px;
+    color: #4A4A4A;
+}
+.advanBtn{
+    background: #23C706;
+    box-shadow: 0 10px 30px rgba(35, 199, 6, 0.45);
+    border-radius: 5px;
+    padding: 10px 15px ;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.AdvantagesBlock{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.Advantages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    margin: 90px 0;
+    border-radius: 10px;
+}
+.Advantages div{
+    display: flex;
+    justify-content: space-around;
+  }
+.AdvantagesTitle{
+    text-align: center;
+}
+@media (max-width: 942px) {
+    .Advantages {
+        margin: 272px 0;
+    }
+}
+@media (max-width: 736px) {
+    .Advantages div{
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .advantagesDesc {
+        width: 100%;
+    }
+}@media (max-width: 576px) {
+    .heroAddress {
+         padding: 0 0 0 10px;
+        width: 235px;
+        text-align: center;
+        border: none;
+    }
+    .AdvantagesTitle {
+         line-height: 29px;
+    }
+    .Advantages div {
+        gap: 10px;
+
+    }
+}
+ @media (max-width: 500px) {
+.container{
+    width: 90%;
+}
+ }
+@media (max-width: 400px) {
+    .heroTitle {
+        font-weight: 700;
+    }
+    .AdvantagesTitle {
+        line-height: 23px;
+        font-size: 22px;
+    }
+    .advanLiter {
+        font-size: 16px;
+     }
+ }
+.advanCircleIcon {
+    width: 170px;
+    height: 170px;
+}
+
+.WaterVideo{
+    width: 100%;
+    height:900px;
+}
+.water{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    overflow: hidden;
+     border-radius: 20px;
+    position: absolute;
+
+  }
+.main{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+.mainDescription p{
+   margin: 30px 0;
+}
+.mainImg{
+    border-radius: 10px;
+}
+@media (max-width: 1024px) {
+    .main{
+       flex-direction: column;
+    }
+}@media (max-width: 776px) {
+    .Advantages {
+         margin: 272px 0 90px 0;
+    }
+}
